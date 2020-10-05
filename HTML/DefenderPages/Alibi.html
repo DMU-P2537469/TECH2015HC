@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width' />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../../Assets/CSS/StyleSheet.css">
+
+	<title>Alibi</title>
+</head>
+
+<body>
+
+<!-- Title -->
+<div id="Title1">
+	<a href="../../HTML/Homepage.html"><img src="../../Assets/Images/Title%20Images/r6%20logo.png" alt="r6logo" class="r6logoimg"></a>
+</div>
+
+<!-- NavBar -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../../HTML/Homepage.html">Home</a>
+  <a href="../../HTML/Contact.html">Contact</a>
+  <button class="dropdown-btn">Operators:
+  </button>
+  <div class="dropdown-container">
+    <a href="../../HTML/OperatorpageAttack.html">Attack</a>
+    <a href="../../HTML/OperatorpageDefense.html">Defense</a>
+  </div>
+  <a href="../../HTML/Mappage.html">Maps</a>
+</div>
+
+<script>
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<!-- Operator Content -->
+
+<div class="OperatorContentWrapper">
+	<div class="SideOperatorInfo">
+		<h3><u>Alibi</u></h3>
+		<img src="../../Assets\Images\DefenderPngOperator\Alibipng.png" alt="Alibi" class="OperatorImagePage">
+		<div class="OperatorinformationPage">
+			<h3><u>General Information</u></h3>
+			<p>Real Name: Aria de Luca</p>
+			<p>Organization: GIS</p>
+			<p>Date of Birth: December 15, 1980</p>
+			<p>Age: 39</p>
+			<p>Height: 5'7</p>
+			<p>Weight: 63kg</p>
+			<h3><u>Statistics</u></h3>
+			<p>Armor Rating: 1 / 3</p>
+			<p>Speed Rating: 3 / 3</p>
+			</div>
+		</div>
+<div class="OperatorBiography">
+<h3><u>Biography</u></h3>
+<p>Aria "Alibi" de Luca was born in Tripoli, Libya and immigrated with her family when she was three years old. Her father managed a small ordinance manufacturer, using his extensive North African contracts to open up exports to that region. De Luca carried her understanding and usage of Italian firearms through the family business and training on the shooting range. At 10, Aria entered the European Championships organized by the European Shooting
+	 Confederation and won gold in both 10-metre running target and 10-metre air pistol divisions. Following the event, a Carabinieri recruiter convinced her to join the police force.</p>
+
+<p>De Luca's precision shooting skills and professionalism shot her up the ranks quickly, and she served for a time with the elite Raggruppamento Operativo Speciale in fighting organized crime. She eventually earned a spot in the prestigious Gruppo Intervento Special (GIS) and following a successful operation in Afghanistan despite being separated from her unit, she was singled out for undercover work in organized crime. She infiltrated the Vinciguerra Crime Family as an arms dealer and spent several years among them before bringing them down from the inside. A newspaper leak of impending operations against the Vinciguerras then forced the GIS to accelerate their initiative.</p>
+
+<p>Following her undercover work and the successful dismantling of the Vinciguerra Crime Family, Aria de Luca received the invitation to join Rainbow as a capable operator.</p>
+</div>
+</div>
+
+<div class="OperatorVideoGuideSection">
+<h3><u>Video Guide</u></h3>
+<div class="VideoContainer">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HFDpxnXfMHc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+
+<!-- Footer -->
+
+<footer class="footer">
+		 <div class="footer__text container">
+	<h3>RainbowSix:<span>Siege</span></h3>
+				 <hr class="footer__hr">
+		 </div>
+		 <div class="footer__sections container">
+				 <div class="footer__section">
+						 <span class="footer__title">About Us</span>
+						 <p>I have provided an easy to navigate/use website designed to increase knowledge and understanding around the basic fundamentals of RainbowSix:Siege</p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Contact Information</span>
+
+						 <p><span>P2537469</span> DMU - Leicester</p>
+
+						 <p>P2537469@my365.dmu.ac.uk</p>
+
+						 <p>+44 12-3456789</p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Feedback!</span>
+						<p>All feedback is welcome, we try our best to provide the best user experience.<a href="../../HTML/Contact.html" class="footer__link">Click Here!</a></p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Follow Us Online!</span>
+
+									<a href="https://www.ubisoft.com/en-gb/game/rainbow-six/siege/"><img src="../../Assets/Images/Footer%20Images/Ubisoft.png" alt="ubisofticon" class="ubisoft"></a>
+
+									<a href="https://twitter.com/Ubisoft?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="../../Assets/Images/Footer%20Images/Twitter.png" alt="twittericon" class="twitter"></a>
+
+									<a href="https://www.youtube.com/channel/UCBMvc6jvuTxH6TNo9ThpYjg"><img src="../../Assets/Images/Footer%20Images/Youtube.png" alt="youtubeicon" class="youtube"></a>
+
+									<a href="https://www.linkedin.com/company/ubisoft"><img src="../../Assets/Images/Footer%20Images/Linkedin.png" alt="linkedinicon" class="linked"></a>
+
+									<a href="https://www.instagram.com/ubisoft/?hl=en"><img src="../../Assets/Images/Footer%20Images/Instagram.png" alt="instagramicon" class="insta"></a>
+
+									<p>© 2020 Harvey Claxton RainbowSix:Siege Assistance</p>
+				 </div>
+		 </div>
+ </footer>
+
+</body>
+
+</html>

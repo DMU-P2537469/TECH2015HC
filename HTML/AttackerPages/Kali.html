@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width' />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../../Assets/CSS/StyleSheet.css">
+
+	<title>Kali</title>
+</head>
+
+<body>
+
+<!-- Title -->
+<div id="Title1">
+	<a href="../../HTML/Homepage.html"><img src="../../Assets/Images/Title%20Images/r6%20logo.png" alt="r6logo" class="r6logoimg"></a>
+</div>
+
+<!-- NavBar -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../../HTML/Homepage.html">Home</a>
+  <a href="../../HTML/Contact.html">Contact</a>
+  <button class="dropdown-btn">Operators:
+  </button>
+  <div class="dropdown-container">
+    <a href="../../HTML/OperatorpageAttack.html">Attack</a>
+    <a href="../../HTML/OperatorpageDefense.html">Defense</a>
+  </div>
+  <a href="../../HTML/Mappage.html">Maps</a>
+</div>
+
+<script>
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<!-- Operator Content -->
+
+<div class="OperatorContentWrapper">
+	<div class="SideOperatorInfo">
+		<h3><u>Kali</u></h3>
+		<img src="../../Assets\Images\AttackerPngOperator\Kalipng.png" alt="Kali" class="OperatorImagePage">
+		<div class="OperatorinformationPage">
+			<h3><u>General Information</u></h3>
+			<p>Real Name: Jaimini Kalimohan Shah</p>
+			<p>Organization:
+NIGHTHAVEN</p>
+			<p>Date of Birth:
+August 21, 1985</p>
+			<p>Age: 34</p>
+			<p>Height: 5'7</p>
+			<p>Weight: 67kg</p>
+			<h3><u>Statistics</u></h3>
+			<p>Armor Rating: 2 / 3</p>
+			<p>Speed Rating: 2 / 3</p>
+			</div>
+		</div>
+<div class="OperatorBiography">
+<h3><u>Biography</u></h3>
+<p>Born to wealthy parents, Shah's ability to achieve her goals was assured from an early age. This self-assurance hit a brick wall when she tried to join the military. Her interest in martial arts led her to enlist, but she quickly discovered that women weren't allowed to serve in combat units. Despite all of her money and all of her social influence, she had found an obstacle between her and something she wanted, and it would not budge. Leaving the military, she created her own Private Security Company to operate within India's borders, then a Private Military Company, NIGHTHAVEN, to operate overseas. She routinely negotiates multi-million-dollar contracts with incredibly favorable terms. Her ruthlessness is legendary, but by becoming a resource the Indian government desperately needs she has circumvented the laws that kept her from her goal and revalidated her self-perception as an unstoppable force in a largely static world.</p>
+
+<p>Cultural similarity isn't always a benefit when undertaking psychoanalysis. Despite our shared heritage, Specialist Jaimini Kalimohan "Kali" Shah's experiences are as alien to me as if she had come from the dark side of the moon. Contrary to what the romantics of this world would have you believe, money does create a boundary that can't be crossed by any other means.</p>
+
+<p>As a child, Shah received everything she wanted, without effort or attention. She is both ambitious and arrogant, but not without merit. She excels as a leader, primarily by driving those under her command beyond their psychological and physical breaking points to "forge them anew." The fact that those who complete her training are then inducted into an inner circle – a society of protectors, as she's apt to call it – does little to separate her from notorious criminal overlords. And yet if I am consistent in believing that everyone has something to teach, I can't discount her methods.</p>
+</div>
+</div>
+
+<div class="OperatorVideoGuideSection">
+<h3><u>Video Guide</u></h3>
+<div class="VideoContainer">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wRFQuon0Veg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+
+<!-- Footer -->
+
+<footer class="footer">
+		 <div class="footer__text container">
+	<h3>RainbowSix:<span>Siege</span></h3>
+				 <hr class="footer__hr">
+		 </div>
+		 <div class="footer__sections container">
+				 <div class="footer__section">
+						 <span class="footer__title">About Us</span>
+						 <p>I have provided an easy to navigate/use website designed to increase knowledge and understanding around the basic fundamentals of RainbowSix:Siege</p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Contact Information</span>
+
+						 <p><span>P2537469</span> DMU - Leicester</p>
+
+						 <p>P2537469@my365.dmu.ac.uk</p>
+
+						 <p>+44 12-3456789</p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Feedback!</span>
+						<p>All feedback is welcome, we try our best to provide the best user experience.<a href="../../HTML/Contact.html" class="footer__link">Click Here!</a></p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Follow Us Online!</span>
+
+									<a href="https://www.ubisoft.com/en-gb/game/rainbow-six/siege/"><img src="../../Assets/Images/Footer%20Images/Ubisoft.png" alt="ubisofticon" class="ubisoft"></a>
+
+									<a href="https://twitter.com/Ubisoft?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="../../Assets/Images/Footer%20Images/Twitter.png" alt="twittericon" class="twitter"></a>
+
+									<a href="https://www.youtube.com/channel/UCBMvc6jvuTxH6TNo9ThpYjg"><img src="../../Assets/Images/Footer%20Images/Youtube.png" alt="youtubeicon" class="youtube"></a>
+
+									<a href="https://www.linkedin.com/company/ubisoft"><img src="../../Assets/Images/Footer%20Images/Linkedin.png" alt="linkedinicon" class="linked"></a>
+
+									<a href="https://www.instagram.com/ubisoft/?hl=en"><img src="../../Assets/Images/Footer%20Images/Instagram.png" alt="instagramicon" class="insta"></a>
+
+									<p>© 2020 Harvey Claxton RainbowSix:Siege Assistance</p>
+				 </div>
+		 </div>
+ </footer>
+
+</body>
+
+</html>

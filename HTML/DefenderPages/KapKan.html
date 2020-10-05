@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width' />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../../Assets/CSS/StyleSheet.css">
+
+	<title>Kapkan</title>
+</head>
+
+<body>
+
+<!-- Title -->
+<div id="Title1">
+	<a href="../../HTML/Homepage.html"><img src="../../Assets/Images/Title%20Images/r6%20logo.png" alt="r6logo" class="r6logoimg"></a>
+</div>
+
+<!-- NavBar -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../../HTML/Homepage.html">Home</a>
+  <a href="../../HTML/Contact.html">Contact</a>
+  <button class="dropdown-btn">Operators:
+  </button>
+  <div class="dropdown-container">
+    <a href="../../HTML/OperatorpageAttack.html">Attack</a>
+    <a href="../../HTML/OperatorpageDefense.html">Defense</a>
+  </div>
+  <a href="../../HTML/Mappage.html">Maps</a>
+</div>
+
+<script>
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<!-- Operator Content -->
+
+<div class="OperatorContentWrapper">
+	<div class="SideOperatorInfo">
+		<h3><u>Kapkan</u></h3>
+		<img src="../../Assets\Images\DefenderPngOperator\Kapkanpng.png" alt="Kapkan" class="OperatorImagePage">
+		<div class="OperatorinformationPage">
+			<h3><u>General Information</u></h3>
+			<p>Real Name: Maxim Basuda</p>
+			<p>Organization: Spetsnaz</p>
+			<p>Date of Birth:
+May 14, 1979</p>
+			<p>Age:
+40</p>
+			<p>Height: 5'11</p>
+			<p>Weight: 80kg</p>
+			<h3><u>Statistics</u></h3>
+			<p>Armor Rating: 2 / 3</p>
+			<p>Speed Rating: 2 / 3</p>
+			</div>
+		</div>
+<div class="OperatorBiography">
+<h3><u>Biography</u></h3>
+<p>Maxim Basuda was born on May 14, 1979 in Kovrov, Russia. The eldest of three brothers, Basuda was surrounded by the influence of the Russian military. Both parents worked in the military support factories, his father in mechanical engineering and his mother in textiles. Hoping to escape a grueling life in the factory, Basuda was encouraged by his parents and teachers to enlist in the Ministry of Internal Affairs. Along with the standard training of weapon expertise, protection detail, and high speed pursuit, Basuda showed adroit skills with hostage rescue and information gathering.</p>
+
+<p>Clever strategies and self-sufficiency meant that Basuda was perfect for an undercover operation in the port town of Naryan-Mar on the Barents Sea. His successful efforts to shut down organized crime prompted his recruitment into the highly respected Spetsnaz. Basuda became an avid hunter and trapper during his time in the Arctic Circle, before being transferred to Beslan in 2002.</p>
+
+<p>Basuda is a self-sufficient realist. He has seen the harsh reality of the world and does not allow that to hinder his ability to act. He's fascinated by psychology; what allows one creature to become a hunter and the other prey.</p>
+</div>
+</div>
+
+<div class="OperatorVideoGuideSection">
+<h3><u>Video Guide</u></h3>
+<div class="VideoContainer">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JbkZyfbOY4E?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+
+<!-- Footer -->
+
+<footer class="footer">
+		 <div class="footer__text container">
+	<h3>RainbowSix:<span>Siege</span></h3>
+				 <hr class="footer__hr">
+		 </div>
+		 <div class="footer__sections container">
+				 <div class="footer__section">
+						 <span class="footer__title">About Us</span>
+						 <p>I have provided an easy to navigate/use website designed to increase knowledge and understanding around the basic fundamentals of RainbowSix:Siege</p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Contact Information</span>
+
+						 <p><span>P2537469</span> DMU - Leicester</p>
+
+						 <p>P2537469@my365.dmu.ac.uk</p>
+
+						 <p>+44 12-3456789</p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Feedback!</span>
+						<p>All feedback is welcome, we try our best to provide the best user experience.<a href="../../HTML/Contact.html" class="footer__link">Click Here!</a></p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Follow Us Online!</span>
+
+									<a href="https://www.ubisoft.com/en-gb/game/rainbow-six/siege/"><img src="../../Assets/Images/Footer%20Images/Ubisoft.png" alt="ubisofticon" class="ubisoft"></a>
+
+									<a href="https://twitter.com/Ubisoft?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="../../Assets/Images/Footer%20Images/Twitter.png" alt="twittericon" class="twitter"></a>
+
+									<a href="https://www.youtube.com/channel/UCBMvc6jvuTxH6TNo9ThpYjg"><img src="../../Assets/Images/Footer%20Images/Youtube.png" alt="youtubeicon" class="youtube"></a>
+
+									<a href="https://www.linkedin.com/company/ubisoft"><img src="../../Assets/Images/Footer%20Images/Linkedin.png" alt="linkedinicon" class="linked"></a>
+
+									<a href="https://www.instagram.com/ubisoft/?hl=en"><img src="../../Assets/Images/Footer%20Images/Instagram.png" alt="instagramicon" class="insta"></a>
+
+									<p>© 2020 Harvey Claxton RainbowSix:Siege Assistance</p>
+				 </div>
+		 </div>
+ </footer>
+
+</body>
+
+</html>

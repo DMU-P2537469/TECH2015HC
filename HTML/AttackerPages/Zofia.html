@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width' />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../../Assets/CSS/StyleSheet.css">
+
+	<title>Zofia</title>
+</head>
+
+<body>
+
+<!-- Title -->
+<div id="Title1">
+	<a href="../../HTML/Homepage.html"><img src="../../Assets/Images/Title%20Images/r6%20logo.png" alt="r6logo" class="r6logoimg"></a>
+</div>
+
+<!-- NavBar -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../../HTML/Homepage.html">Home</a>
+  <a href="../../HTML/Contact.html">Contact</a>
+  <button class="dropdown-btn">Operators:
+  </button>
+  <div class="dropdown-container">
+    <a href="../../HTML/OperatorpageAttack.html">Attack</a>
+    <a href="../../HTML/OperatorpageDefense.html">Defense</a>
+  </div>
+  <a href="../../HTML/Mappage.html">Maps</a>
+</div>
+
+<script>
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<!-- Operator Content -->
+
+<div class="OperatorContentWrapper">
+	<div class="SideOperatorInfo">
+		<h3><u>Zofia</u></h3>
+		<img src="../../Assets\Images\AttackerPngOperator\Zofiapng.png" alt="Zofia" class="OperatorImagePage">
+		<div class="OperatorinformationPage">
+			<h3><u>General Information</u></h3>
+			<p>Real Name: Zofia Bosak</p>
+			<p>Organization: GROM</p>
+			<p>Date of Birth:
+January 28, 1981</p>
+			<p>Age: 39</p>
+			<p>Height: 5'10</p>
+			<p>Weight: 72kg</p>
+			<h3><u>Statistics</u></h3>
+			<p>Armor Rating: 2 / 3</p>
+			<p>Speed Rating: 2 / 3</p>
+			</div>
+		</div>
+<div class="OperatorBiography">
+<h3><u>Biography</u></h3>
+<p>Zofia Bosak was born on January 28, 1981 in Wrocław, Poland. She is the oldest daughter of Jan Bosak, former commander of the Polish Special Forces unit GROM. She is also the older sister of Elżbieta Bosak. Growing up, her father favored Zofia, causing a rift between them. Despite this, Zofia was highly protective of her sister.</p>
+
+<p>Zofia attended her father's military school along with her sister. While attending, she was pressured to perform on every level – a burden her younger sister was not able to cope with. During a school trip to the Masurian Lake District, Zofia was prey to a disturbing prank that almost cost her life. While she played in the lake, three boys from her class took turns trying to drown her, just for 'fun'. This violent experience marked her with a deep mistrust of others. The following week, she had to sit beside her assailants in class. To deal with her growing anxiety, she decided to push her training further, and ensure she could rely on her skills for protection. Her father agreed to show her more ruthless techniques, given she would never question his methods.</p>
+
+<p>The next morning, he led Zofia to a shooting range where he had leashed two stray dogs to a target post. He informed her that one of the two dogs was sick and that she had to end its suffering. He then took his pocket watch out and gave her two minutes to make a decision. This was meant to teach her the skills necessary to survive any peril, and withstand dangerous situations. Her father's strict military training and his pocket watch would haunt her for years. While there were moments when she wanted to rebel against him, she also found comfort in the simple, black-and-white form of validation his system provided.</p>
+</div>
+</div>
+
+<div class="OperatorVideoGuideSection">
+<h3><u>Video Guide</u></h3>
+<div class="VideoContainer">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GocoaacFyho" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+
+<!-- Footer -->
+
+<footer class="footer">
+		 <div class="footer__text container">
+	<h3>RainbowSix:<span>Siege</span></h3>
+				 <hr class="footer__hr">
+		 </div>
+		 <div class="footer__sections container">
+				 <div class="footer__section">
+						 <span class="footer__title">About Us</span>
+						 <p>I have provided an easy to navigate/use website designed to increase knowledge and understanding around the basic fundamentals of RainbowSix:Siege</p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Contact Information</span>
+
+						 <p><span>P2537469</span> DMU - Leicester</p>
+
+						 <p>P2537469@my365.dmu.ac.uk</p>
+
+						 <p>+44 12-3456789</p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Feedback!</span>
+						<p>All feedback is welcome, we try our best to provide the best user experience.<a href="../../HTML/Contact.html" class="footer__link">Click Here!</a></p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Follow Us Online!</span>
+
+									<a href="https://www.ubisoft.com/en-gb/game/rainbow-six/siege/"><img src="../../Assets/Images/Footer%20Images/Ubisoft.png" alt="ubisofticon" class="ubisoft"></a>
+
+									<a href="https://twitter.com/Ubisoft?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="../../Assets/Images/Footer%20Images/Twitter.png" alt="twittericon" class="twitter"></a>
+
+									<a href="https://www.youtube.com/channel/UCBMvc6jvuTxH6TNo9ThpYjg"><img src="../../Assets/Images/Footer%20Images/Youtube.png" alt="youtubeicon" class="youtube"></a>
+
+									<a href="https://www.linkedin.com/company/ubisoft"><img src="../../Assets/Images/Footer%20Images/Linkedin.png" alt="linkedinicon" class="linked"></a>
+
+									<a href="https://www.instagram.com/ubisoft/?hl=en"><img src="../../Assets/Images/Footer%20Images/Instagram.png" alt="instagramicon" class="insta"></a>
+
+									<p>© 2020 Harvey Claxton RainbowSix:Siege Assistance</p>
+				 </div>
+		 </div>
+ </footer>
+
+</body>
+
+</html>

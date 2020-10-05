@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width' />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../../Assets/CSS/StyleSheet.css">
+
+	<title>Lion</title>
+</head>
+
+<body>
+
+<!-- Title -->
+<div id="Title1">
+	<a href="../../HTML/Homepage.html"><img src="../../Assets/Images/Title%20Images/r6%20logo.png" alt="r6logo" class="r6logoimg"></a>
+</div>
+
+<!-- NavBar -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../../HTML/Homepage.html">Home</a>
+  <a href="../../HTML/Contact.html">Contact</a>
+  <button class="dropdown-btn">Operators:
+  </button>
+  <div class="dropdown-container">
+    <a href="../../HTML/OperatorpageAttack.html">Attack</a>
+    <a href="../../HTML/OperatorpageDefense.html">Defense</a>
+  </div>
+  <a href="../../HTML/Mappage.html">Maps</a>
+</div>
+
+<script>
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<!-- Operator Content -->
+
+<div class="OperatorContentWrapper">
+	<div class="SideOperatorInfo">
+		<h3><u>Lion</u></h3>
+		<img src="../../Assets\Images\AttackerPngOperator\Lionpng.png" alt="Lion" class="OperatorImagePage">
+		<div class="OperatorinformationPage">
+			<h3><u>General Information</u></h3>
+			<p>Real Name: Olivier Flament</p>
+			<p>Organization: GIGN, CBRN Threat Unit</p>
+			<p>Date of Birth: August 29, 1985</p>
+			<p>Age:
+34</p>
+			<p>Height: 6'1</p>
+			<p>Weight: 87kg</p>
+			<h3><u>Statistics</u></h3>
+			<p>Armor Rating: 2 / 3</p>
+			<p>Speed Rating: 2 / 3</p>
+			</div>
+		</div>
+<div class="OperatorBiography">
+<h3><u>Biography</u></h3>
+<p>Olivier was born to a conservative, well-to-do family. His parents and older sister, Sophie, were in medicine and devout Catholics, but he bucked against their accomplishments and their faith. He was smart and arrogant, but he believed rebellion was a better use of his intellect. It was fun to act against expectation, to drink and party... at least it was until he got his girlfriend, Claire, pregnant.</p>
+
+<p>He tried to convince Claire to get an abortion, but she refused. Once his parents found out about the pregnancy, they kicked him out of the house; it was the last straw in a string of bad behavior. Depressed, Olivier went on a drug and alcohol-fueled bender, getting trashed enough to land in the hospital. That was his wake-up call. He was 18 and nearly homeless, so he joined the French Army out of desperation in order to gain control of his life.</p>
+
+<p>Military life was hard but rewarding. Olivier took solace in purpose and struggled to break old habits. He started sending money to Claire to support their newborn son even though she did not want to see Olivier. Olivier's skills and aptitude were well-suited for specific training in CBRN. The additional structure and strict discipline of advanced training allowed him to excel. He became a second-level in-combat rescuer and was quickly recruited into the 2nd Dragoon Regiment. Olivier worked primarily with their environmental monitoring sensors in support of the unit's role as a CBRN reaction force. He also developed a close relationship with the regiment’s Catholic Chaplain, Bertrand, who eventually spoke to Claire and convinced her that Olivier regretted his actions. He arranged a reunion for them.</p>
+</div>
+</div>
+
+<div class="OperatorVideoGuideSection">
+<h3><u>Video Guide</u></h3>
+<div class="VideoContainer">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/meLOY29qarc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+
+<!-- Footer -->
+
+<footer class="footer">
+		 <div class="footer__text container">
+	<h3>RainbowSix:<span>Siege</span></h3>
+				 <hr class="footer__hr">
+		 </div>
+		 <div class="footer__sections container">
+				 <div class="footer__section">
+						 <span class="footer__title">About Us</span>
+						 <p>I have provided an easy to navigate/use website designed to increase knowledge and understanding around the basic fundamentals of RainbowSix:Siege</p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Contact Information</span>
+
+						 <p><span>P2537469</span> DMU - Leicester</p>
+
+						 <p>P2537469@my365.dmu.ac.uk</p>
+
+						 <p>+44 12-3456789</p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Feedback!</span>
+						<p>All feedback is welcome, we try our best to provide the best user experience.<a href="../../HTML/Contact.html" class="footer__link">Click Here!</a></p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Follow Us Online!</span>
+
+									<a href="https://www.ubisoft.com/en-gb/game/rainbow-six/siege/"><img src="../../Assets/Images/Footer%20Images/Ubisoft.png" alt="ubisofticon" class="ubisoft"></a>
+
+									<a href="https://twitter.com/Ubisoft?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="../../Assets/Images/Footer%20Images/Twitter.png" alt="twittericon" class="twitter"></a>
+
+									<a href="https://www.youtube.com/channel/UCBMvc6jvuTxH6TNo9ThpYjg"><img src="../../Assets/Images/Footer%20Images/Youtube.png" alt="youtubeicon" class="youtube"></a>
+
+									<a href="https://www.linkedin.com/company/ubisoft"><img src="../../Assets/Images/Footer%20Images/Linkedin.png" alt="linkedinicon" class="linked"></a>
+
+									<a href="https://www.instagram.com/ubisoft/?hl=en"><img src="../../Assets/Images/Footer%20Images/Instagram.png" alt="instagramicon" class="insta"></a>
+
+									<p>© 2020 Harvey Claxton RainbowSix:Siege Assistance</p>
+				 </div>
+		 </div>
+ </footer>
+
+</body>
+
+</html>

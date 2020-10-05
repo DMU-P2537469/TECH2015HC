@@ -1,0 +1,567 @@
+/* All pages */
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+}
+
+/*Title*/
+
+#Title1 {
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: unset;
+}
+
+.r6logoimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+/* Nav Bar */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  opacity: 80%;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #DAA520;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #DAA520;
+}
+
+.dropdown-btn:hover {
+  color: #DAA520
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  padding-left: 30px;
+  color: #FFFACD;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #FFFACD;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.dropdown-container {
+  display: none;
+  background-color: black;
+  padding-left: 8px;
+}
+
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+span {
+  color: #DAA520;
+}
+
+/* Footer */
+
+.footer {
+    font-size: 0.85rem;
+    padding: 20px 0;
+    line-height: 1.6;
+}
+
+.footer h3{
+  color: #ffffff;
+}
+
+.footer span{
+  color: #DAA520;
+}
+
+.footer__text,
+.footer__link,
+.footer__title {
+    color: #aaaaaa;
+    padding: 3px 15px;
+    display: block;
+}
+
+.footer__section p{
+  padding-left: 5px;
+}
+
+.footer__hr {
+    height: 1px;
+    border: none;
+    background: #DAA520;
+}
+
+.footer__sections {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.footer__section {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 15px 0;
+    flex-shrink: 0;
+}
+
+.footer__title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer__section p{
+  color: #FFFACD;
+}
+
+.footer__section a{
+  color: #DAA520;
+  padding-left: 10px;
+}
+
+.footer__link {
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    color: #cccccc;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+@media screen and (max-width: 768px) {
+    .footer__section { width: 50%; }
+}
+
+
+.insta{
+  width: 10%;
+}
+
+.linked{
+  width: 10%;
+}
+
+.youtube{
+ width: 10%;
+}
+
+.twitter{
+ width: 10%;
+}
+
+.ubisoft{
+ width: 10%;
+}
+
+/* Home page */
+
+
+.GallerySlide{
+  border: solid;
+  border-color: #DAA520;
+}
+
+.mySlides {
+  display:none;
+  padding: 10px;
+
+}
+
+.About-Us h3 {
+  text-align: center;
+  text-shadow:1px 1px 0 #444;
+  color: #DAA520;
+}
+
+.About-Us p{
+  color: #FFFACD;
+  text-align: center;
+  text-shadow:1px 1px 0 #444;
+}
+
+.ExampleBox{
+  padding-top: 10px;
+}
+
+.Box1{
+
+  width: 100%;
+  border: 5px;
+  background-color: transparent;
+  box-shadow:20px 20px 50px 15px grey;
+  border-style: solid;
+
+}
+
+.Box1 h3{
+  text-align: center;
+   color: #DAA520;
+}
+
+.Box2{
+
+  width: 100%;
+  border: 5px;
+  background-color: transparent;
+  box-shadow:20px 20px 50px 15px grey;
+  border-style: solid;
+  padding-bottom: 32px;
+}
+
+.Box2 h3{
+  text-align: center;
+  color: #DAA520;
+}
+
+.ExamVig{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 60%;
+}
+
+.ExamBank{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+}
+
+/* Operator page */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.flex-container > div {
+  background-color: transparent;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: auto;
+  font-size: auto;
+}
+
+.HeadingText h1{
+text-align: center;
+text-shadow:1px 1px 0 #444;
+color: #DAA520;
+}
+
+.Image:hover{
+	opacity: 0.3;
+}
+
+.Image{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+/* Map Page */
+
+.flex-containermap{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-evenly;
+}
+
+.flex-containermap > div {
+  background-color: transparent;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: auto;
+  font-size: auto;
+  margin: 5px;
+}
+
+.MapImage{
+  opacity: 1;
+  display: block;
+  width: 150%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.MapImage:hover{
+  opacity: 0.3;
+}
+
+/* Contact Page */
+
+.form h1{
+  text-align: center;
+  text-shadow:1px 1px 0 #444;
+  color: #DAA520;
+}
+
+.contact-form{
+  background-color: #fff;
+  width: 100%;
+  margin-top: 4%;
+}
+
+.contact-form form{
+  padding: 10%;
+}
+
+.form-control{
+  border-radius: 0;
+  background-color: transparent;
+}
+
+textarea{
+  height: 146px !important;
+  width: 100%;
+}
+
+.btncontact{
+  border: none;
+  padding: 0.375rem 0.7rem;
+  background-color: #DAA520;
+  font-weight: 600;
+  cursor: pointer;
+  color:#FFFACD;
+  float: left;
+}
+
+.btncontact:hover {
+  background-color: black;
+}
+
+/* Map Individual Elements */
+
+.HeaderforMap h1{
+  text-align: center;
+  text-shadow:1px 1px 0 #444;
+  color: #DAA520;
+}
+
+.Map-Description {
+  color: #FFFACD;
+  text-align: center;
+  text-shadow:1px 1px 0 #444;
+  padding: 5px;
+  border-style: solid;
+  border-color: #DAA520;
+}
+
+.Map-Image{
+  padding: 5px;
+  border-style: solid;
+  border-color: #DAA520;
+}
+
+.LayoutImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.BorderForLayout{
+  padding: 5px;
+  border-style: solid;
+  border-color: #DAA520;
+}
+
+.MainImgMap{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.MapLayoutimg h3{
+  text-align: center;
+  text-shadow:1px 1px 0 #444;
+  color: #DAA520;
+
+}
+
+
+.Description{
+  padding: 5px;
+  border-style: solid;
+  border-color: #DAA520;
+}
+
+.Description h3{
+  text-align: center;
+  text-shadow:1px 1px 0 #444;
+  color: #DAA520;
+}
+
+.Description p{
+  color: #FFFACD;
+  text-align: left;
+  text-shadow:1px 1px 0 #444;
+}
+
+.Description u{
+    color: #DAA520;
+}
+
+.Description ul{
+    color: #FFFACD;
+}
+
+/* Operator Individual Elements */
+
+.OperatorContentWrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  padding-top: 10px;
+}
+
+.SideOperatorInfo{
+  border-style: solid;
+  border-color: #DAA520;
+  background-color: black;
+  padding: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .SideOperatorInfo h3{
+    font-size: 15px;
+  }
+}
+
+.SideOperatorInfo h3{
+word-wrap:break-word;
+font-size: 15px;
+}
+
+.OperatorContentWrapper h3{
+  text-align: center;
+  color: #DAA520;
+}
+
+.OperatorContentWrapper p{
+  text-align: center;
+  color: #FFFACD;
+}
+
+.OperatorinformationPage p{
+  word-wrap:break-word;
+}
+
+.OperatorImagePage {
+width: 100%
+}
+
+.OperatorBiography{
+  padding: 5px;
+  border-style: solid;
+  border-color: #DAA520;
+}
+
+.OperatorBiography h3{
+  text-align: center;
+  color: #DAA520;
+}
+
+.OperatorBiography p{
+  text-align: left;
+  color: #FFFACD;
+}
+
+@media screen and (min-width: 777px) {
+  .SideOperatorInfo {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .SideOperatorInfo {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 777px) {
+  .OperatorBiography {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .OperatorBiography {
+    font-size: 10px;
+  }
+}
+
+.OperatorVideoGuideSection{
+
+}
+
+.OperatorVideoGuideSection h3{
+  text-align: center;
+  color: #DAA520;
+}
+
+.VideoContainer{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.VideoContainer iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

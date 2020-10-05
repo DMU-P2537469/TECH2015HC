@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width' />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../../Assets/CSS/StyleSheet.css">
+
+	<title>Smoke</title>
+</head>
+
+<body>
+
+<!-- Title -->
+<div id="Title1">
+	<a href="../../HTML/Homepage.html"><img src="../../Assets/Images/Title%20Images/r6%20logo.png" alt="r6logo" class="r6logoimg"></a>
+</div>
+
+<!-- NavBar -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../../HTML/Homepage.html">Home</a>
+  <a href="../../HTML/Contact.html">Contact</a>
+  <button class="dropdown-btn">Operators:
+  </button>
+  <div class="dropdown-container">
+    <a href="../../HTML/OperatorpageAttack.html">Attack</a>
+    <a href="../../HTML/OperatorpageDefense.html">Defense</a>
+  </div>
+  <a href="../../HTML/Mappage.html">Maps</a>
+</div>
+
+<script>
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<!-- Operator Content -->
+
+<div class="OperatorContentWrapper">
+	<div class="SideOperatorInfo">
+		<h3><u>Smoke</u></h3>
+		<img src="../../Assets\Images\DefenderPngOperator\Smokepng.png" alt="Smoke" class="OperatorImagePage">
+		<div class="OperatorinformationPage">
+			<h3><u>General Information</u></h3>
+			<p>Real Name:
+James Porter</p>
+			<p>Organization: SAS</p>
+			<p>Date of Birth:
+May 14, 1981</p>
+			<p>Age:
+38</p>
+			<p>Height: 5'8</p>
+			<p>Weight: 70kg</p>
+			<h3><u>Statistics</u></h3>
+			<p>Armor Rating: 2 / 3</p>
+			<p>Speed Rating: 2 / 3</p>
+			</div>
+		</div>
+<div class="OperatorBiography">
+<h3><u>Biography</u></h3>
+<p>James Porter was born on May 14, 1981 at King's Cross in London, England. Porter was not an exceptional student growing up though aptitude tests revealed his propensity for science. Encouraged by faculty and his parents, he was able to follow an unorthodox manner of education through tutors, home-schooling, and field science. Flourishing from his break from formal studies, he quickly developed his skills in chemistry, biology, and math. During his gap year, Porter was uninterested in pursuing a formal university education. He enlisted in the British Army and forged a fake ID in order to circumvent parental consent.</p>
+
+<p>After basic training, he was stationed in Belfast, finding the posting to be a bit dull. In the wake of the March 2007 treaty, he joined the Army Boxing Team as a middleweight. Though the rigidity of army rules wasn't always a good fit, it was offset by the diverse range of training and experiences army life gave him. While he has been reprimanded for breaking rules, his superiors quickly recognized both his innovation and strategic perspective. He was then encouraged to join the SAS.</p>
+
+<p>Porter is a thrill seeker with very little regard for his personal safety. He is fearless in battle and can be a great asset for defensive maneuvers. However, he seems to enjoy the havoc and chaos of war. He tends to have an odd sense of humor in stressful situations. Can be narcissistic. Porter prefers to acquire knowledge and skills, such as language and music, in his own way and does not excel in a formal training capacity.</p>
+
+<p>It's important for me to not have any preconceived expectations before a face-to-face with any specialist. Since assessments of Specialist James "Smoke" Porter contain some contradictions, I couldn't have settled into any viewpoint anyway. So essentially he entered my office as somewhat of a mystery.</p>
+
+<p>Porter is consistently described as detached. I reviewed his files and found that his "aloofness" occurs during high-intensity situations. It's likely not detachment, but focus. I'm reminded of my uncle who used to tap his forehead and tell me to master my mind. Porter, I think, is master his mind to stay on task and filter out dangerous distractions. He strives to keep emotions away from decision-making, opting for outlets such as live music events to deplete the tension, thus enabling him to be the person he needs to be on the job.</p>
+
+</div>
+</div>
+
+<div class="OperatorVideoGuideSection">
+<h3><u>Video Guide</u></h3>
+<div class="VideoContainer">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aiKXR21LjyA?start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+
+<!-- Footer -->
+
+<footer class="footer">
+		 <div class="footer__text container">
+	<h3>RainbowSix:<span>Siege</span></h3>
+				 <hr class="footer__hr">
+		 </div>
+		 <div class="footer__sections container">
+				 <div class="footer__section">
+						 <span class="footer__title">About Us</span>
+						 <p>I have provided an easy to navigate/use website designed to increase knowledge and understanding around the basic fundamentals of RainbowSix:Siege</p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Contact Information</span>
+
+						 <p><span>P2537469</span> DMU - Leicester</p>
+
+						 <p>P2537469@my365.dmu.ac.uk</p>
+
+						 <p>+44 12-3456789</p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Feedback!</span>
+						<p>All feedback is welcome, we try our best to provide the best user experience.<a href="../../HTML/Contact.html" class="footer__link">Click Here!</a></p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Follow Us Online!</span>
+
+									<a href="https://www.ubisoft.com/en-gb/game/rainbow-six/siege/"><img src="../../Assets/Images/Footer%20Images/Ubisoft.png" alt="ubisofticon" class="ubisoft"></a>
+
+									<a href="https://twitter.com/Ubisoft?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="../../Assets/Images/Footer%20Images/Twitter.png" alt="twittericon" class="twitter"></a>
+
+									<a href="https://www.youtube.com/channel/UCBMvc6jvuTxH6TNo9ThpYjg"><img src="../../Assets/Images/Footer%20Images/Youtube.png" alt="youtubeicon" class="youtube"></a>
+
+									<a href="https://www.linkedin.com/company/ubisoft"><img src="../../Assets/Images/Footer%20Images/Linkedin.png" alt="linkedinicon" class="linked"></a>
+
+									<a href="https://www.instagram.com/ubisoft/?hl=en"><img src="../../Assets/Images/Footer%20Images/Instagram.png" alt="instagramicon" class="insta"></a>
+
+									<p>© 2020 Harvey Claxton RainbowSix:Siege Assistance</p>
+				 </div>
+		 </div>
+ </footer>
+
+</body>
+
+</html>

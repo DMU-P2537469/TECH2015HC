@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width' />
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../Assets/CSS/StyleSheet.css">
+
+	<title>Map Page</title>
+</head>
+
+<body>
+
+<!-- Title -->
+<div id="Title1">
+	<a href="../HTML/Homepage.html"><img src="../Assets/Images/Title%20Images/r6%20logo.png" alt="r6logo" class="r6logoimg"></a>
+</div>
+
+<!-- NavBar -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../HTML/Homepage.html">Home</a>
+  <a href="../HTML/Contact.html">Contact</a>
+  <button class="dropdown-btn">Operators:
+  </button>
+  <div class="dropdown-container">
+    <a href="../HTML/OperatorpageAttack.html">Attack</a>
+    <a href="../HTML/OperatorpageDefense.html">Defense</a>
+  </div>
+  <a href="../HTML/Mappage.html">Maps</a>
+</div>
+
+<script>
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<!-- Maps -->
+
+<div class=HeadingText>
+<h1>Maps</h1>
+<div class="flex-containermap">
+	<div><a href="../HTML\MapPages\Bank.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Bank%20image.png" class="MapImage" alt="Bank"></a></div>
+	<div><a href="../HTML\MapPages\Border.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Border%20Image.png" class="MapImage" alt="Border"></a></div>
+	<div><a href="../HTML\MapPages\Chalet.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Chalet%20Map.png" class="MapImage" alt="Chalet"></a></div>
+	<div><a href="../HTML\MapPages\Clubhouse.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Clubhouse%20Map.png" class="MapImage" alt="Clubhouse"></a></div>
+	<div><a href="../HTML\MapPages\Coastline.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Coastline%20Image.png" class="MapImage" alt="Coastline"></a></div>
+	<div><a href="../HTML\MapPages\Consulate.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Consulate%20Map.png" class="MapImage" alt="Consulate"></a></div>
+	<div><a href="../HTML\MapPages\Favela.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Favela%20Image.png" class="MapImage" alt="Favela"></a></div>
+	<div><a href="../HTML\MapPages\Fortress.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Fortress%20Image.png" class="MapImage" alt="Fortress"></a></div>
+	<div><a href="../HTML\MapPages\HerefordBase.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Hereford%20Base%20Image.png" class="MapImage" alt="Hereford"></a></div>
+	<div><a href="../HTML\MapPages\House.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/House%20Image.png" class="MapImage" alt="House"></a></div>
+	<div><a href="../HTML\MapPages\KafeDostoyevsky.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Kafe%20Dostoyevsky%20Image.png" class="MapImage" alt="Kafe"></a></div>
+	<div><a href="../HTML\MapPages\Kanal.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Kanal%20Image.png" class="MapImage" alt="Kanal"></a></div>
+	<div><a href="../HTML\MapPages\Oregon.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Oregon%20Image.png" class="MapImage" alt="Oregon"></a></div>
+	<div><a href="../HTML\MapPages\Outback.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Outback%20Image.png" class="MapImage" alt="Outback"></a></div>
+	<div><a href="../HTML\MapPages\PresidentialPlane.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Presidential%20Plane%20Image.png" class="MapImage" alt="PresidentialPlane"></a></div>
+	<div><a href="../HTML\MapPages\Skyscraper.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Skyscraper%20Image.png" class="MapImage" alt="Skyscraper"></a></div>
+	<div><a href="../HTML\MapPages\ThemePark.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Theme%20Park%20Image.png" class="MapImage" alt="Themepark"></a></div>
+	<div><a href="../HTML\MapPages\Tower.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Tower%20Image.png" class="MapImage" alt="Tower"></a></div>
+	<div><a href="../HTML\MapPages\Villa.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Villa%20Image.png" class="MapImage" alt="Villa"></a></div>
+	<div><a href="../HTML\MapPages\Yacht.html"><img src="../Assets/Images/Map%20Images/Map%20Icons/Yacht%20Image.png" class="MapImage" alt="Yacht"></a></div>
+</div>
+</div>
+
+<!-- Footer -->
+
+<footer class="footer">
+		 <div class="footer__text container">
+	<h3>RainbowSix:<span>Siege</span></h3>
+				 <hr class="footer__hr">
+		 </div>
+		 <div class="footer__sections container">
+				 <div class="footer__section">
+						 <span class="footer__title">About Us</span>
+						 <p>I have provided an easy to navigate/use website designed to increase knowledge and understanding around the basic fundamentals of RainbowSix:Siege</p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Contact Information</span>
+
+						 <p><span>P2537469</span> DMU - Leicester</p>
+
+						 <p>P2537469@my365.dmu.ac.uk</p>
+
+						 <p>+44 12-3456789</p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Feedback!</span>
+						<p>All feedback is welcome, we try our best to provide the best user experience.<a href="../HTML/Contact.html" class="footer__link">Click Here!</a></p>
+				 </div>
+				 <div class="footer__section">
+						 <span class="footer__title">Follow Us Online!</span>
+
+									<a href="https://www.ubisoft.com/en-gb/game/rainbow-six/siege/"><img src="../Assets/Images/Footer%20Images/Ubisoft.png" alt="ubisofticon" class="ubisoft"></a>
+
+									<a href="https://twitter.com/Ubisoft?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="../Assets/Images/Footer%20Images/Twitter.png" alt="twittericon" class="twitter"></a>
+
+									<a href="https://www.youtube.com/channel/UCBMvc6jvuTxH6TNo9ThpYjg"><img src="../Assets/Images/Footer%20Images/Youtube.png" alt="youtubeicon" class="youtube"></a>
+
+									<a href="https://www.linkedin.com/company/ubisoft"><img src="../Assets/Images/Footer%20Images/Linkedin.png" alt="linkedinicon" class="linked"></a>
+
+									<a href="https://www.instagram.com/ubisoft/?hl=en"><img src="../Assets/Images/Footer%20Images/Instagram.png" alt="instagramicon" class="insta"></a>
+
+									<p>© 2020 Harvey Claxton RainbowSix:Siege Assistance</p>
+				 </div>
+		 </div>
+ </footer>
+
+</body>
+</html>
